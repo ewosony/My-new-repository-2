@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    
+}
+.container{
+    width:1408px;
+    margin: 0 auto;
+    padding-left: 146px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.08);
+    background-color: rgb(223, 221, 221);
+}
+.header-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav-plus-img{
+    display: flex;
+}
+.header-link{
+    text-decoration: none;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #000000;
+}
+.header-item:not(:last-child){
+    margin-right: 36px;
+}
+
+.header-item:last-child{
+    margin-right: 26px;
+}
+.header-btn{
+    padding: 16px 60px;
+    background: #5B6460;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.intro-container{
+    width: 1408px;
+    margin: 0 auto;
+    background-image: url(./Photo/dom.png);
+    padding-top: 95px;
+    padding-right: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin: 0;;
+}
+.intro-descr{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.cabins-container{
+    width: 1408px;
+    margin: 0 auto;
+}
+.cabins-img{
+    display: flex;
+    justify-content: space-around;
+}
+.cabins-text-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+}
+.cabins-h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: 147px;
+    margin-top: 87px;
+}
+.cabins-p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    margin-right: 105px;
+    margin-left: 147px;
+
+}
+.cabins-rm{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460;
+    margin-left: 147px;
+    text-decoration: underline;
+}
+.forest-container{
+    width: 1408px;
+    margin: 0 auto;
+    margin-top: 135px ;
+    display: flex;
+}
+.the-forest{
+    width: 50%;
+}
+.forest-title{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+    margin-bottom: 50px;
+}
+.forest-descr{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 15px ;
+}
+.forest-link{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460;
+}
+.forest-text{
+    background-color: #E9ECE0;
+    padding-left: 110px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 130px;
+}
+.facilites{
+    background: #5B6460;
+    width: 1408px;
+    margin: 0 auto;
+}
+.facilities-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 150px;
+}
+.facilities-img{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-bottom: 131px;
+}
+.facilites-descr{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.facilities-image{
+    margin-left: 10px;
+}
+.facilies-photo{
+    display: flex;
+    width: 1408px;
+    margin: 0 auto;
+}
+
+
